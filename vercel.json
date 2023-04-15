@@ -3,12 +3,6 @@
     "buildCommand": "npm run make",
     "outputDirectory": "dist",
     "framework": null,
-    "builds": [
-        {
-            "src": "src/*.js",
-            "use": "@vercel/node"
-        }
-    ],
     "routes": [
         {
             "src": "/",
