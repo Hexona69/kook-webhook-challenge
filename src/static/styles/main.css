@@ -1,0 +1,21 @@
+#input-control {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+#send-challenge {
+    grid-area: 1 / 1 / 2 / 9;
+}
+
+#switch-theme {
+    grid-area: 1 / 9 / 2 / 12;
+}
+
+#outputs {
+    font-family: 'Cascadia Code', 'monaco', 'Courier New', Courier, monospace;
+    padding: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
