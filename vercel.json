@@ -7,6 +7,10 @@
     ],
     "rewrites": [
         {
+            "source": "/",
+            "destination": "./dist/index.htm"
+        },
+        {
             "source": "/test",
             "destination": "./dist/api/test.route.js"
         },
