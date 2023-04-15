@@ -1,20 +1,7 @@
 {
     "installCommand": "npm install -g rimraf copyfiles typescript browserify && npm install",
-    "buildCommand": "npm run make",
-    "outputDirectory": "dist",
-    "framework": null,
-    "routes": [
-        {
-            "src": "/",
-            "dest": "./dist/index.htm"
-        },
-        {
-            "src": "/test",
-            "dest": "./dist/api/test.route.js"
-        },
-        {
-            "src": "/static",
-            "dest": "./dist/static"
-        }
-    ]
+    "buildCommand": "npm run build",
+    "outputDirectory": ".",
+    "devCommand": "",
+    "framework": null
 }

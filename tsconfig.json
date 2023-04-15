@@ -5,16 +5,16 @@
         "experimentalDecorators": true,
         "target": "es2020",
         "module": "commonjs",
-        "moduleResolution": "node16",
+        "moduleResolution": "node",
         "lib": [
             "dom",
             "es2020"
         ],
-        "baseUrl": "./src",
+        "baseUrl": ".",
         "rootDirs": [
-            "src"
+            "."
         ],
-        "outDir": "./dist",
+        "outDir": "static/dist",
         "strict": true,
         "typeRoots": [
             "./typings",
@@ -26,10 +26,7 @@
         "forceConsistentCasingInFileNames": true
     },
     "include": [
-        "./src/**/*.ts",
-        ".eslintrc.js", "src/static/scripts/main.ts",
+        "static/src/*.ts"
     ],
-    "exclude": [
-        "./src/tests/*.ts"
-    ]
+    "exclude": []
 }
