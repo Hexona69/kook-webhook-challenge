@@ -5,18 +5,18 @@
             "use": "@vercel/node"
         }
     ],
-    "rewrites": [
+    "routes": [
         {
-            "source": "/",
-            "destination": "./dist/index.htm"
+            "src": "/",
+            "dest": "./dist/index.htm"
         },
         {
-            "source": "/test",
-            "destination": "./dist/api/test.route.js"
+            "src": "/test",
+            "dest": "./dist/api/test.route.js"
         },
         {
-            "source": "/static",
-            "destination": "./dist/static"
+            "src": "/static",
+            "dest": "./dist/static"
         }
     ]
 }
